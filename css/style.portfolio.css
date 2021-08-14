@@ -5,7 +5,7 @@
   --white-primary: #ffffff;
   --grey-cnt: #757575;
 }
-.header-link {
+.header .header-link {
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -27,6 +27,7 @@
 .header .header-contact:focus {
   color: var(--blue-accent);
 }
+
 .header .header-list.current {
   color: var(--blue-accent);
 }
@@ -36,67 +37,49 @@
   line-height: 1.2;
   color: var(--grey-cnt);
 }
-/*main1*/
-.main .main-title {
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.4;
-  text-align: center;
-  text-transform: uppercase;
-  color: var(--white-primary);
-  background-color: var(--background-color);
+
+/* hero */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
-.main .main-button {
+
+.hero .hero-button {
   font-family: inherit;
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
-  line-height: 1.9;
+  line-height: 1.6;
   text-align: center;
   border: none;
   background-color: var(--blue-accent);
+  color: var(--black-secondary);
+}
+.hero .hero-button:hover,
+.hero .hero-buton:focus {
   color: var(--white-primary);
 }
-/*main2*/
-.main2 .main2-title {
+.hero .hero-title {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.2;
+  font-size: 18px;
+  line-height: 2;
   color: var(--black-secondary);
 }
-.main2 .main2-text {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  color: var(--grey-cnt);
-}
-/*main3*/
-.main3 .main3-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-  color: var(--black-secondary);
-}
-.team .team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-  color: var(--black-secondary);
-}
-.team .team-name {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.2;
-  color: var(--black-secondary);
-}
-.team .team-text {
+.hero .hero-text {
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.2;
+  line-height: 1.9;
   color: var(--grey-cnt);
 }
 /* footer */
+
 .footer {
   background-color: var(--background-color);
 }
