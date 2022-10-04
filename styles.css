@@ -15,7 +15,7 @@
 body {
     background: var(--accent-secondary-text-color);
     color: var(--secondary-text-color);
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto", sans-serif;
     letter-spacing: 0.03em;
     font-size: 14px;
 
@@ -37,7 +37,7 @@ body {
 
 
 .button {
-    font-family: Roboto, sans-serif;
+    font-family: "roboto", "sans-serif";
     font-weight: 700;
     font-size: 16px;
     line-height: 1.87;
@@ -48,19 +48,20 @@ body {
     background-color: var(--accent-text-color);
     color: var(--accent-secondary-text-color);
     cursor: pointer;
+    
 }
 
 /* Логотип  */
 
 .logo {
     color: var(--accent-text-color);
-    font-family: Raleway, sans-serif;
+    font-family: "Raleway", "sans-serif";
     font-weight: 700;
     font-size: 26px;
     text-decoration: none;
 }
 
-.logo-tip {
+.logo-top {
     color: var(--text-logo-color);
 }
 
@@ -76,6 +77,7 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
     cursor: pointer;
+    
 }
 
 .site-nav .link:hover,
@@ -173,6 +175,7 @@ body {
 
 .list-name {
     list-style: none;
+    background-color: #F5F4FA; 
 }
 
 .employees {
@@ -197,6 +200,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     color: var(--secondary-text-color);
+    
 }
 
 /* Футер*/
